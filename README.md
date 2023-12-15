@@ -1,10 +1,8 @@
-Replicating Kinetic modeling of fermentative hydrogen production by Thermotoga neapolitana
-APA Citation for the referenced paper:
-Pradhan, Dipasquale, L., d’Ippolito, G., Fontana, A., Panico, A., Lens, P. N. L., Pirozzi, F., & Esposito, G. (2016). Kinetic modeling of fermentative hydrogen production by Thermotoga neapolitana. International Journal of Hydrogen Energy, 41(9), 4931–4940. https://doi.org/10.1016/j.ijhydene.2016.01.107
+# Kinetic Modeling and Optimization of a Batch Ethanol Fermentation Process
+### Samuel C Oliveira1*, Romulo C Oliveira2, Mariana V Tacin2 and Edwil AL Gattás2
+This project aimed to replicate, and perhaps improve, the model developed in the above paper. The paper explores substrate limitation and inhibition by both the product ethanol and the substrate. Personal interest in this subject comes from the rising demand for fuel ethanol calls higher production and more efficient bioprocesses.The simplest models formulated to describe bioprocesses are the unstructured models. In these models, it is assumed that cellsare entities in solution that interact with the environment. Nointernal cell structure is recognized, and the cell population is treated as homogeneous. In structured models, the biomass structureis defined by means of more than one variable, which represent cellcomponents, such as the RNA content, enzymes, reactants and products.
 
-This project aimed to replicate, and perhaps improve, the model developed in the above paper. The paper explores fermentation of glucose in a specific bacterium species to form hydrogen. Personal interest in this subject comes from recent developments in hydrogen technology and an increased demand for its production. Availability of hydrogen is currently not meeting demands put forth as a result of subsidized developments, so further methods of generation will be required. Most hydrogen gas today is sourced from syngas. Development of green solutions is necessary if the world is to progress toward its climate goals. This paper presents a study of a green, bio-based production method on a lab scale.
-
-Several analyses were completed of the proposed ODEs. The outlined equations, variables, and parameters can be seen below.
+These were my the ordinary differential equations used in the paper
 
 
 The authors found their parameters to be k = 0.839 1/h, ks = 1.42 g/L, Y = 0.1204, kd = 0.0043 1/h. In my report, I took pH inhibition to be equal to 1 to simplify my analysis.
